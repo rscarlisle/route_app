@@ -3,7 +3,18 @@
 used: rails new route_app --database=postgresql
 add: gem 'rails_12factor' for production --- to Gemfile
 run: bundle install --without production
-run: git init
+run: git init && git add -A && git status
+run: git commit -m "Initialize repository"
+run: git remote add origin https://github.com/rscarlisle/route_app.git
+run: git push -u origin master
+warning: heroku will need app with initial route
+warning: heroku may need rake db:migrate done for app, first
+now: get app basics, including route(s), then push to heroku
+add: route & create planesController & render a message 
+run: db:create && db:migrate
+Preview the route_app >> "Hello, pilots!" -- Worx!
+Move greeting to index.html in /views/planes/
+Heroku: delete a dyno
 
 Things you may want to cover:
 
