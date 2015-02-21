@@ -14,7 +14,13 @@ add: route & create planesController & render a message
 run: db:create && db:migrate
 Preview the route_app >> "Hello, pilots!" -- Worx!
 Move greeting to index.html in /views/planes/
-Heroku: delete a dyno
+Heroku: delete a dyno + git push origin master
+run: heroku login && heroku create && git push heroku master
+run: heroku app >> great! it worx!
+create our plane model && rake db:migrate
+used the 'insert into' sql-cmd to add a record to the db
+used 'select name, type, description from planes' to show record
+
 
 Things you may want to cover:
 
