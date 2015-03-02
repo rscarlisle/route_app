@@ -21,6 +21,17 @@ create our plane model && rake db:migrate
 used the 'insert into' sql-cmd to add a record to the db
 used 'select name, type, description from planes' to show record
 
+3/2/2015 @ 8:32am
+had to run: "bundle install" -- rails s -- page displayed correctly
+Goal: work on understanding more about Rails Routes System & to go deeper with GitHub commands & to write 'how to' article
+Goal: work on database commands
+Update GitHub -- update ReadMe for starters
+Check Heroku deployment status - successfully deployed to Heroku(from last Feb 19 dev session): https://cryptic-garden-4699.herokuapp.com/
+What instructions did I use for this project? GA Notes project? See: Study Log: (2/20/2015) @ 8:54am
+This project successfully uses the Postgreql database
+>figure out the changes you want to make & update in GitHub repo in correct branch - use gitimmersion lab
+
+-------------------------------
 
 Things you may want to cover:
 
